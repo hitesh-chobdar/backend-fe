@@ -1,7 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+This project was bootstrapped with [Create React App]
 ## Available Scripts
 
 In the project directory, you can run:
@@ -17,7 +16,6 @@ You may also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -27,7 +25,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
 
 ### `npm run eject`
 
@@ -39,32 +37,28 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+Welcome to the BookMyShow! This project is developed by Our Team. This is a simple backend project that contains a RESTful API for getting information about Booking Movies Ticket. The project is developed with Node.js and Express, and the database used for managing data is MongoDB. The BookMyShow  data consists of fields such as their Seats , Time Slot and Movies  .
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Behind the scenes, we used MongoDB, a fancy database that's good at handling lots of   data and saves in database. Its show last detail booking ticket.Showing its time,movies name,seats
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+When you use BookMyShow, you just need to Click on the buttons according to your choice and it gives you a neat report with all the details about the Movies. 
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+Its is easy to understand the user are easily book its ticket on click button .its showing last booking detail.  we are using Middleware to connect frontend to backend . 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+We use following dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Node.js        :  A JavaScript runtime environment.
+Express.js   :  A web application framework for Node.js.
+MongoDB   :  A NoSQL database used for storing subscriber data..
+Mongoose  :  An Object Data Modeling (ODM) library for MongoDB and Node.js.
+Postman    :  API documentation and testing framework.
+Nodemon   :  A utility that automatically restarts the server when changes are  
+                        detected.
+Cors             :  Its a MiddleWare  To connect frontend to backend . 
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
